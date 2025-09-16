@@ -157,6 +157,7 @@ body::before {
 .nav {
     display: flex;
     margin-top: 15px;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
     height: 100%;
@@ -857,6 +858,7 @@ body::before {
     transform: translateY(0);
 }
 
+
 /* ===== RESPONSIVE DESIGN ===== */
 @media (max-width: 992px) {
     .nav-links {
@@ -880,7 +882,43 @@ body::before {
     }
 }
 
+@media (min-width: 992px) and (max-width: 1366px) {
+    .logo {
+        font-size: 1.15rem;
+    }
+}
+
 @media (max-width: 768px) {
+    .nav {
+        text-align: center;
+    }
+
+    .logo {
+        flex: 1 1 100%;
+        margin-bottom: 10px;
+    }
+
+    .social-nav {
+        flex: 1 1 100%;
+        justify-content: center;
+        margin: 0 0 10px 0;
+    }
+
+    .hero-text h1 {
+        font-size: clamp(1.8rem, 6vw, 2.2rem);
+        line-height: 1.2;
+        margin-top: 80px;
+    }
+
+    .hero-text p {
+        font-size: 1rem;
+    }
+
+    .hero .profile-avatar {
+        width: 250px;
+        height: 250px;
+    }
+
     .hero-cta {
         flex-direction: column;
         align-items: center;
@@ -902,6 +940,25 @@ body::before {
 }
 
 @media (max-width: 480px) {
+
+    .nav {
+        padding: 0;
+    }
+
+    .hero-text h1 {
+        font-size: 1.6rem;
+        margin-top: 100px;
+    }
+
+    .hero .profile-avatar {
+        width: 200px;
+        height: 200px;
+    }
+
+    .section-title {
+        font-size: 1.6rem;
+    }
+
     .tech-grid {
         grid-template-columns: repeat(3, 1fr);
     }
