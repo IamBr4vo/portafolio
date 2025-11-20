@@ -482,9 +482,15 @@ body::before {
 /* ===== PROJECTS SECTION ===== */
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: var(--space-8);
     margin-top: var(--space-12);
+}
+
+@media (min-width: 1280px) {
+    .projects-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
 }
 
 .project-card {
@@ -652,6 +658,26 @@ body::before {
 .tech-tag.mongodb {
     background: linear-gradient(135deg, #47a248, #3e8e41);
     color: white;
+}
+
+.tech-tag.nodejs {
+    background: linear-gradient(135deg, #539e43, #3c873a);
+    color: white;
+}
+
+.tech-tag.express {
+    background: linear-gradient(135deg, #111111, #4a4a4a);
+    color: white;
+}
+
+.tech-tag.docker {
+    background: linear-gradient(135deg, #0db7ed, #0a75b8);
+    color: white;
+}
+
+.tech-tag.owasp {
+    background: linear-gradient(135deg, #f7b733, #fc4a1a);
+    color: #1f2937;
 }
 
 .tech-tag:hover {
