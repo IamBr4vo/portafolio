@@ -21,9 +21,11 @@
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
     <link rel="stylesheet" href="public/css/styles.css">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" as="style">
 </head>
 
 <body>
+    <a href="#home" class="skip-to-content">Saltar al contenido</a>
     <!-- Navigation -->
     <nav class="navbar" id="navbar">
         <div class="container">
@@ -35,7 +37,7 @@
                     <li><a href="#about">Acerca de</a></li>
                     <li><a href="#skills">Habilidades</a></li>
                     <li><a href="#projects">Proyectos</a></li>
-                    <li><a href="#education">Educación</a></li>
+                    <li><a href="#certifications">Certificados</a></li>
                     <li><a href="#contact">Contacto</a></li>
                 </ul>
 
@@ -80,7 +82,7 @@
             </div>
             <div class="hero-image" data-aos="fade-left" data-aos-delay="200">
                 <div class="profile-avatar">
-                    <img src="public/img/me.jpg" alt="Foto de Carlos Bravo" class="profile-img">
+                    <img src="public/img/me.jpg" alt="Foto de Carlos Bravo" class="profile-img" loading="lazy">
                 </div>
             </div>
         </div>
@@ -323,6 +325,116 @@
         </div>
     </section>
 
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Certificaciones</h2>
+            <p class="section-subtitle fade-in">
+                Certificaciones que respaldan mi trabajo
+            </p>
+                        <div class="cert-grid">
+
+                <article class="cert-card fade-in" data-aos="zoom-in" data-aos-delay="150">
+                    <a class="cert-image" href="public/img/certs/CarlosBravo-Enterprise_Networking_Security-certificate.pdf" target="_blank" rel="noopener">
+                        <img src="public/img/certs/ccna-ensa.png" alt="CCNA: Enterprise Networking, Security, and Automation" loading="lazy">
+                    </a>
+                    <div class="cert-body">
+                        <span class="cert-badge navy">Cisco Networking Academy</span>
+                        <h3 class="cert-title">CCNA: Enterprise Networking, Security, and Automation</h3>
+                        <p class="cert-meta">Automatización, seguridad y diseño de redes empresariales de alto rendimiento.</p>
+                    </div>
+                    <div class="cert-actions">
+                        <a class="btn btn-outline cert-link" href="https://www.credly.com/badges/af64cffd-5029-4294-8e06-bc0008180788/linked_in_profile" target="_blank" rel="noopener">Ver badge</a>
+                    </div>
+                </article>
+
+                <article class="cert-card fade-in" data-aos="zoom-in" data-aos-delay="200">
+                    <a class="cert-image" href="public/img/certs/CarlosBravo-Switching_Routing-certificate.pdf" target="_blank" rel="noopener">
+                        <img src="public/img/certs/ccna-srwe.png" alt="CCNA: Switching, Routing, and Wireless Essentials" loading="lazy">
+                    </a>
+                    <div class="cert-body">
+                        <span class="cert-badge navy">Cisco Networking Academy</span>
+                        <h3 class="cert-title">CCNA: Switching, Routing, and Wireless Essentials</h3>
+                        <p class="cert-meta">Diseño de topolog?as, redundancia, inalombrico seguro y endurecimiento de red.</p>
+                    </div>
+                    <div class="cert-actions">
+                        <a class="btn btn-outline cert-link" href="https://www.credly.com/badges/9a57adf7-efc4-4122-972f-0baba0147655/linked_in_profile" target="_blank" rel="noopener">Ver badge</a>
+                    </div>
+                </article>
+
+                <article class="cert-card fade-in" data-aos="zoom-in" data-aos-delay="225">
+                    <a class="cert-image" href="public/img/certs/CarlosBravo-Networking_Essentials-certificate.pdf" target="_blank" rel="noopener">
+                        <img src="public/img/certs/ccna-itn.png" alt="CCNA: Introduction to Networks" loading="lazy">
+                    </a>
+                    <div class="cert-body">
+                        <span class="cert-badge navy">Cisco Networking Academy</span>
+                        <h3 class="cert-title">CCNA: Introduction to Networks</h3>
+                        <p class="cert-meta">Fundamentos de redes, direccionamiento IPv4/IPv6 y configuración inicial de infraestructura.</p>
+                    </div>
+                    <div class="cert-actions">
+                        <a class="btn btn-outline cert-link" href="https://www.credly.com/badges/d50ec83f-da23-4077-918b-374bec7d9a10/linked_in_profile" target="_blank" rel="noopener">Ver badge</a>
+                    </div>
+                </article>
+
+                <article class="cert-card fade-in" data-aos="zoom-in" data-aos-delay="250">
+                    <a class="cert-image" href="public/img/certs/CarlosBravo-Introduction_Cybersecurity-certificate.pdf" target="_blank" rel="noopener">
+                        <img src="public/img/certs/intro-cyber.png" alt="Introduction to Cybersecurity" loading="lazy">
+                    </a>
+                    <div class="cert-body">
+                        <span class="cert-badge teal">Cisco Networking Academy</span>
+                        <h3 class="cert-title">Introduction to Cybersecurity</h3>
+                        <p class="cert-meta">Fundamentos de amenazas, mitigación, pol?ticas y defensa corporativa.</p>
+                    </div>
+                    <div class="cert-actions">
+                        <a class="btn btn-outline cert-link" href="https://www.credly.com/badges/ae17da4f-df63-46ef-95f5-9b675c6b307b" target="_blank" rel="noopener">Ver badge</a>
+                    </div>
+                </article>
+
+                <article class="cert-card fade-in" data-aos="zoom-in" data-aos-delay="300">
+                    <a class="cert-image" href="public/img/certs/CarlosBravo-Endpoint_Security-certificate.pdf" target="_blank" rel="noopener">
+                        <img src="public/img/certs/endpoint-security.png" alt="Endpoint Security" loading="lazy">
+                    </a>
+                    <div class="cert-body">
+                        <span class="cert-badge green">Cisco Networking Academy</span>
+                        <h3 class="cert-title">Endpoint Security</h3>
+                        <p class="cert-meta">Protección de endpoints, hardening y operación segura frente a amenazas.</p>
+                    </div>
+                    <div class="cert-actions">
+                        <a class="btn btn-outline cert-link" href="https://www.credly.com/badges/574faf9f-3225-40fb-a232-56ab63e53c1c" target="_blank" rel="noopener">Ver badge</a>
+                    </div>
+                </article>
+
+                <article class="cert-card fade-in" data-aos="zoom-in" data-aos-delay="50">
+                    <a class="cert-image" href="public/img/certs/CarlosBravo-SOC_Analyst-certificate.pdf" target="_blank" rel="noopener">
+                        <img src="public/img/certs/soc-101.png" alt="SOC 101 - Centro De Operaciones De Seguridad" loading="lazy">
+                    </a>
+                    <div class="cert-body">
+                        <span class="cert-badge blue">Academia de Ciberseguridad</span>
+                        <h3 class="cert-title">SOC 101 - Centro De Operaciones De Seguridad</h3>
+                        <p class="cert-meta">Formación toctica en monitoreo, respuesta y escalamiento de incidentes SOC.</p>
+                    </div>
+                    <div class="cert-actions">
+                        <a class="btn btn-outline cert-link" href="https://certificados.academia-ciberseguridad.com/download/1z4Xv0l5kVlPLVwBbmbDVw" target="_blank" rel="noopener">Ver Certificado</a>
+                    </div>
+                </article>
+
+                <article class="cert-card fade-in" data-aos="zoom-in" data-aos-delay="100">
+                    <a class="cert-image" target="_blank" rel="noopener">
+                        <img src="public/img/certs/credly-badge.svg" alt="Credly - Perfil p?blico" loading="lazy">
+                    </a>
+                    <div class="cert-body">
+                        <span class="cert-badge gold">Credly</span>
+                        <h3 class="cert-title">Credly - Perfil de insignias</h3>
+                        <p class="cert-meta">Repositorio de credenciales verificadas y badges profesionales.</p>
+                    </div>
+                    <div class="cert-actions">
+                        <a class="btn cert-link btn-outline" href="https://www.credly.com/users/carlos-bravo.e252549e" target="_blank" rel="noopener">Ver mas</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
     <!-- Technologies Section -->
     <section id="skills" class="section">
         <div class="container">
@@ -446,6 +558,35 @@
                     <i class="fas fa-network-wired tech-item-icon" style="font-size: 48px; color: #4facfe;"></i>
                     <div class="tech-item-name">CCNA</div>
                 </div>
+                <div class="tech-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+                        alt="Linux" class="tech-item-icon">
+                    <div class="tech-item-name">Linux</div>
+                </div>
+                <div class="tech-item">
+                    <img src="https://www.kali.org/images/kali-logo.svg" alt="Kali Linux" class="tech-item-icon">
+                    <div class="tech-item-name">Kali Linux</div>
+                </div>
+                <div class="tech-item">
+                    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/burpsuite.svg"
+                        alt="Burp Suite" class="tech-item-icon">
+                    <div class="tech-item-name">Burp Suite</div>
+                </div>
+                <div class="tech-item">
+                    <img src="https://nmap.org/images/nmap-logo-256x256.png"
+                        alt="Nmap" class="tech-item-icon">
+                    <div class="tech-item-name">Nmap</div>
+                </div>
+                <div class="tech-item">
+                    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/wireshark.svg"
+                        alt="Wireshark" class="tech-item-icon">
+                    <div class="tech-item-name">Wireshark</div>
+                </div>
+                <div class="tech-item">
+                    <img src="https://www.kali.org/tools/gobuster/images/gobuster-logo.svg"
+                        alt="Gobuster" class="tech-item-icon">
+                    <div class="tech-item-name">Gobuster</div>
+                </div>
             </div>
 
         </div>
@@ -509,3 +650,4 @@
 </body>
 
 </html>
+
