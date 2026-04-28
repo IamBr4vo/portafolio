@@ -21,7 +21,8 @@
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
     <link rel="stylesheet" href="public/css/styles.css">
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+        as="style">
 </head>
 
 <body>
@@ -30,12 +31,13 @@
     <nav class="navbar" id="navbar">
         <div class="container">
             <div class="nav">
-                <a href="#home" class="logo">Carlos Bravo</a>
+                <a href="#home" class="logo"></a>
 
                 <ul class="nav-links">
                     <li><a href="#home">Inicio</a></li>
-                    <li><a href="#about">Acerca de</a></li>
+                    <li><a href="#about">Perfil</a></li>
                     <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#experience">Experiencia</a></li>
                     <li><a href="#projects">Proyectos</a></li>
                     <li><a href="#certifications">Certificados</a></li>
                     <li><a href="#contact">Contacto</a></li>
@@ -157,6 +159,86 @@
         </div>
     </section>
 
+    <section id="experience" class="section" style="background-color: #ffffff;">
+        <div class="container">
+            <h2 class="section-title fade-in">Experiencia Profesional</h2>
+            <p class="section-subtitle fade-in">
+                Desarrollo técnico en entornos financieros de alta disponibilidad
+            </p>
+
+            <div style="max-width: 1050px; margin: 0 auto;">
+                <article class="project-card fade-in" data-aos="fade-up"
+                    style="display: flex; flex-direction: row; flex-wrap: wrap; align-items: stretch; overflow: hidden; height: auto; text-align: left; background: #ffffff; border: 1px solid #e0e0e0; box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
+
+                    <div style="flex: 1; min-width: 350px; position: relative; overflow: hidden; background: #f8f9fa;">
+                        <img src="public/img/coocique.png" alt="Infraestructura Coocique"
+                            style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease;">
+                        <div class="project-overlay"
+                            style="background: linear-gradient(to right, rgba(0,0,0,0.6), transparent);">
+                            <h4 class="project-overlay-title" style="letter-spacing: 2px; color: #ffffff;">IT OPS</h4>
+                        </div>
+                    </div>
+
+                    <div
+                        style="flex: 1.5; min-width: 350px; padding: 2.5rem; display: flex; flex-direction: column; justify-content: center; font-family: 'Inter', sans-serif; background: #ffffff;">
+
+                        <img src="public/img/logo_coocique.png" alt="Logo Coocique"
+                            style="width: 130px; height: auto; margin-bottom: 1.2rem; display: block; filter: brightness(1);">
+
+                        <h3 class="project-title"
+                            style="font-size: 1.6rem; color: #2d3436; margin-bottom: 0.8rem; line-height: 1.2; font-weight: 700;">
+                            Pasantía de Operaciones de TI en Coocique R.L.
+                        </h3>
+
+                        <p class="about-text">
+                            Brindé asistencia en la modernización y continuidad operativa de la red nacional de
+                            <strong>Coocique</strong>. Ejecuté el despliegue de tecnología <strong>SD-WAN
+                                (Fortinet)</strong> y la gestión de infraestructura crítica bajo estrictos protocolos de
+                            seguridad financiera.
+                        </p>
+
+                        <ul
+                            style="font-size: 0.9rem; margin-bottom: 1.8rem; padding-left: 1.2rem; color: #2d3436; line-height: 1.5;">
+                            <li style="margin-bottom: 6px;">Migración nacional de hardware Cisco a
+                                <strong>FortiGate</strong>.
+                            </li>
+                            <li style="margin-bottom: 6px;">Mantenimiento con protocolos <strong>Zero Downtime</strong>
+                                (< 3 min).</li>
+                            <li style="margin-bottom: 6px;">Gestión de identidades (IAM) mediante <strong>Active
+                                    Directory</strong>.</li>
+                            <li>Administración de activos y soporte N1/N2 con <strong>InvGate</strong>.</li>
+                        </ul>
+
+                        <div class="tech-stack" style="margin-bottom: 2rem;">
+                            <span class="tech-tag"
+                                style="background: #e3f2fd; color: #1976d2; border: 1px solid #bbdefb;">Fortinet</span>
+                            <span class="tech-tag"
+                                style="background: #f5f5f5; color: #424242; border: 1px solid #e0e0e0;">SD-WAN</span>
+                            <span class="tech-tag"
+                                style="background: #f5f5f5; color: #424242; border: 1px solid #e0e0e0;">Active
+                                Directory</span>
+                            <span class="tech-tag"
+                                style="background: #f5f5f5; color: #424242; border: 1px solid #e0e0e0;">Zero
+                                Downtime</span>
+                        </div>
+
+                        <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+                            <a href="https://docs.google.com/document/d/1bj6VsnoLGU2KFpBtD4_QSNnAljf8g9ZD-S6Yhj3UFP4/edit?usp=sharing"
+                                class="btn btn-primary" target="_blank" rel="noopener"
+                                style="padding: 0.7rem 1.5rem; background-color: #4facfe; border-color: #4facfe;">
+                                <i class="fas fa-file-alt"></i> Informe
+                            </a>
+                            <a href="https://www.coocique.fi.cr/" class="btn btn-outline" target="_blank" rel="noopener"
+                                style="padding: 0.7rem 1.5rem; border-color: #00a859; color: #00a859; font-weight: 600;">
+                                <i class="fas fa-external-link-alt"></i> Sobre Coocique
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
     <!-- Projects Section -->
     <section id="projects" class="section">
         <div class="container">
@@ -169,7 +251,8 @@
                 <!-- MediVault OWASP Top 10 -->
                 <article class="project-card fade-in" data-aos="zoom-in" data-aos-delay="50">
                     <div class="project-header security project-header-image">
-                        <img src="public/img/medivault.png" alt="Captura del proyecto MediVault" class="project-header-img" loading="lazy">
+                        <img src="public/img/medivault.png" alt="Captura del proyecto MediVault"
+                            class="project-header-img" loading="lazy">
                         <div class="project-overlay">
                             <h4 class="project-overlay-title">OWASP TOP 10 LAB</h4>
                             <p>Node.js + MySQL + Docker</p>
@@ -180,7 +263,8 @@
                         <p class="project-description">
                             Plataforma full stack para gestión de doctores, pacientes, citas y pagos, construida con API
                             REST en Express y frontend estático. Diseñada como laboratorio educativo que implementa de
-                            forma controlada el OWASP Top 10 (accesos rotos, criptografía débil, inyecciones, SSRF, etc.)
+                            forma controlada el OWASP Top 10 (accesos rotos, criptografía débil, inyecciones, SSRF,
+                            etc.)
                             para practicar detección y mitigación de riesgos.
                         </p>
                         <div class="tech-stack">
@@ -201,7 +285,8 @@
                 <!-- Sistema Web Albergue -->
                 <article class="project-card fade-in" data-aos="zoom-in" data-aos-delay="100">
                     <div class="project-header web project-header-image">
-                        <img src="public/img/marianoapp.png" alt="Sistema Web Albergue Mariano Juvenil" class="project-header-img" loading="lazy">
+                        <img src="public/img/marianoapp.png" alt="Sistema Web Albergue Mariano Juvenil"
+                            class="project-header-img" loading="lazy">
                         <div class="project-overlay">
                             <h4 class="project-overlay-title">SISTEMA WEB INTEGRAL</h4>
                             <p>Laravel & Vue.js Architecture</p>
@@ -233,7 +318,8 @@
                 <!-- App Móvil Viáticos -->
                 <article class="project-card fade-in" data-aos="zoom-in" data-aos-delay="200">
                     <div class="project-header mobile project-header-image">
-                        <img src="public/img/viaticos.webp" alt="App Móvil para Gestión de Viáticos" class="project-header-img" loading="lazy">
+                        <img src="public/img/viaticos.jpeg" alt="App Móvil para Gestión de Viáticos"
+                            class="project-header-img" loading="lazy">
                         <div class="project-overlay">
                             <h4 class="project-overlay-title">MOBILE APPLICATION</h4>
                             <p>Flutter & .NET Integration</p>
@@ -264,7 +350,8 @@
                 <!-- Auditoría Seguridad TI -->
                 <article class="project-card fade-in" data-aos="zoom-in" data-aos-delay="300">
                     <div class="project-header security project-header-image">
-                        <img src="public/img/AuditoriaCotai.png" alt="Auditoría de Seguridad TI COTAI" class="project-header-img" loading="lazy">
+                        <img src="public/img/AuditoriaCotai.png" alt="Auditoría de Seguridad TI COTAI"
+                            class="project-header-img" loading="lazy">
                         <div class="project-overlay">
                             <h4 class="project-overlay-title">SECURITY AUDIT</h4>
                             <p>ISO Standards Compliance</p>
@@ -284,17 +371,18 @@
                             <span class="tech-tag">Gestión de Riesgos</span>
                             <span class="tech-tag">SOC Analyst</span>
                         </div>
-                        <a href="https://docs.google.com/document/d/1DOSVHLBFNOrH4kTL5vDdcdndPI-LCLnUK9fw4HkAFTY/edit?usp=sharing"
-                            class="btn btn-primary" target="_blank" rel="noopener">
-                            <i class="fas fa-file-alt"></i> Ver Documento
-                        </a>
+                        <div class="btn btn-outline"
+                            style="opacity: 0.7; cursor: not-allowed; border-color: #e74c3c; color: #e74c3c;">
+                            <i class="fas fa-lock"></i> Reporte Confidencial (NDA)
+                        </div>
                     </div>
                 </article>
 
                 <!-- Diagnóstico de Red -->
                 <article class="project-card fade-in" data-aos="zoom-in" data-aos-delay="400">
                     <div class="project-header network project-header-image">
-                        <img src="public/img/EvaluacionCotai.png" alt="Evaluación y Diagnóstico de Red COTAI" class="project-header-img" loading="lazy">
+                        <img src="public/img/EvaluacionCotai.jpg" alt="Evaluación y Diagnóstico de Red COTAI"
+                            class="project-header-img" loading="lazy">
                         <div class="project-overlay">
                             <h4 class="project-overlay-title">NETWORK ASSESSMENT</h4>
                             <p>Infrastructure Optimization</p>
@@ -315,10 +403,10 @@
                             <span class="tech-tag">Pentesting</span>
                             <span class="tech-tag">Packet Tracer</span>
                         </div>
-                        <a href="https://docs.google.com/document/d/1S8_MW-pMAAIRgX88-sFip_Y69XqMC27v/edit?usp=sharing&ouid=106371910255245019424&rtpof=true&sd=true"
-                            class="btn btn-primary" target="_blank" rel="noopener">
-                            <i class="fas fa-file-alt"></i> Ver Documento
-                        </a>
+                        <div class="btn btn-outline"
+                            style="opacity: 0.7; cursor: not-allowed; border-color: #e74c3c; color: #e74c3c;">
+                            <i class="fas fa-lock"></i> Reporte Confidencial (NDA)
+                        </div>
                     </div>
                 </article>
             </div>
@@ -332,52 +420,68 @@
             <p class="section-subtitle fade-in">
                 Certificaciones que respaldan mi trabajo
             </p>
-                        <div class="cert-grid">
+            <div class="cert-grid">
 
                 <article class="cert-card fade-in" data-aos="zoom-in" data-aos-delay="150">
-                    <a class="cert-image" href="public/img/certs/CarlosBravo-Enterprise_Networking_Security-certificate.pdf" target="_blank" rel="noopener">
-                        <img src="public/img/certs/ccna-ensa.png" alt="CCNA: Enterprise Networking, Security, and Automation" loading="lazy">
+                    <a class="cert-image"
+                        href="public/img/certs/CarlosBravo-Enterprise_Networking_Security-certificate.pdf"
+                        target="_blank" rel="noopener">
+                        <img src="public/img/certs/ccna-ensa.png"
+                            alt="CCNA: Enterprise Networking, Security, and Automation" loading="lazy">
                     </a>
                     <div class="cert-body">
                         <span class="cert-badge navy">Cisco Networking Academy</span>
                         <h3 class="cert-title">CCNA: Enterprise Networking, Security, and Automation</h3>
-                        <p class="cert-meta">Automatización, seguridad y diseño de redes empresariales de alto rendimiento.</p>
+                        <p class="cert-meta">Automatización, seguridad y diseño de redes empresariales de alto
+                            rendimiento.</p>
                     </div>
                     <div class="cert-actions">
-                        <a class="btn btn-outline cert-link" href="https://www.credly.com/badges/af64cffd-5029-4294-8e06-bc0008180788/linked_in_profile" target="_blank" rel="noopener">Ver badge</a>
+                        <a class="btn btn-outline cert-link"
+                            href="https://www.credly.com/badges/af64cffd-5029-4294-8e06-bc0008180788/linked_in_profile"
+                            target="_blank" rel="noopener">Ver badge</a>
                     </div>
                 </article>
 
                 <article class="cert-card fade-in" data-aos="zoom-in" data-aos-delay="200">
-                    <a class="cert-image" href="public/img/certs/CarlosBravo-Switching_Routing-certificate.pdf" target="_blank" rel="noopener">
-                        <img src="public/img/certs/ccna-srwe.png" alt="CCNA: Switching, Routing, and Wireless Essentials" loading="lazy">
+                    <a class="cert-image" href="public/img/certs/CarlosBravo-Switching_Routing-certificate.pdf"
+                        target="_blank" rel="noopener">
+                        <img src="public/img/certs/ccna-srwe.png"
+                            alt="CCNA: Switching, Routing, and Wireless Essentials" loading="lazy">
                     </a>
                     <div class="cert-body">
                         <span class="cert-badge navy">Cisco Networking Academy</span>
                         <h3 class="cert-title">CCNA: Switching, Routing, and Wireless Essentials</h3>
-                        <p class="cert-meta">Diseño de topologías, redundancia, inalombrico seguro y endurecimiento de red.</p>
+                        <p class="cert-meta">Diseño de topologías, redundancia, inalombrico seguro y endurecimiento de
+                            red.</p>
                     </div>
                     <div class="cert-actions">
-                        <a class="btn btn-outline cert-link" href="https://www.credly.com/badges/9a57adf7-efc4-4122-972f-0baba0147655/linked_in_profile" target="_blank" rel="noopener">Ver badge</a>
+                        <a class="btn btn-outline cert-link"
+                            href="https://www.credly.com/badges/9a57adf7-efc4-4122-972f-0baba0147655/linked_in_profile"
+                            target="_blank" rel="noopener">Ver badge</a>
                     </div>
                 </article>
 
                 <article class="cert-card fade-in" data-aos="zoom-in" data-aos-delay="225">
-                    <a class="cert-image" href="public/img/certs/CarlosBravo-Networking_Essentials-certificate.pdf" target="_blank" rel="noopener">
+                    <a class="cert-image" href="public/img/certs/CarlosBravo-Networking_Essentials-certificate.pdf"
+                        target="_blank" rel="noopener">
                         <img src="public/img/certs/ccna-itn.png" alt="CCNA: Introduction to Networks" loading="lazy">
                     </a>
                     <div class="cert-body">
                         <span class="cert-badge navy">Cisco Networking Academy</span>
                         <h3 class="cert-title">CCNA: Introduction to Networks</h3>
-                        <p class="cert-meta">Fundamentos de redes, direccionamiento IPv4/IPv6 y configuración inicial de infraestructura.</p>
+                        <p class="cert-meta">Fundamentos de redes, direccionamiento IPv4/IPv6 y configuración inicial de
+                            infraestructura.</p>
                     </div>
                     <div class="cert-actions">
-                        <a class="btn btn-outline cert-link" href="https://www.credly.com/badges/d50ec83f-da23-4077-918b-374bec7d9a10/linked_in_profile" target="_blank" rel="noopener">Ver badge</a>
+                        <a class="btn btn-outline cert-link"
+                            href="https://www.credly.com/badges/d50ec83f-da23-4077-918b-374bec7d9a10/linked_in_profile"
+                            target="_blank" rel="noopener">Ver badge</a>
                     </div>
                 </article>
 
                 <article class="cert-card fade-in" data-aos="zoom-in" data-aos-delay="250">
-                    <a class="cert-image" href="public/img/certs/CarlosBravo-Introduction_Cybersecurity-certificate.pdf" target="_blank" rel="noopener">
+                    <a class="cert-image" href="public/img/certs/CarlosBravo-Introduction_Cybersecurity-certificate.pdf"
+                        target="_blank" rel="noopener">
                         <img src="public/img/certs/intro-cyber.png" alt="Introduction to Cybersecurity" loading="lazy">
                     </a>
                     <div class="cert-body">
@@ -386,35 +490,46 @@
                         <p class="cert-meta">Fundamentos de amenazas, mitigación, políticas y defensa corporativa.</p>
                     </div>
                     <div class="cert-actions">
-                        <a class="btn btn-outline cert-link" href="https://www.credly.com/badges/ae17da4f-df63-46ef-95f5-9b675c6b307b" target="_blank" rel="noopener">Ver badge</a>
+                        <a class="btn btn-outline cert-link"
+                            href="https://www.credly.com/badges/ae17da4f-df63-46ef-95f5-9b675c6b307b" target="_blank"
+                            rel="noopener">Ver badge</a>
                     </div>
                 </article>
 
                 <article class="cert-card fade-in" data-aos="zoom-in" data-aos-delay="300">
-                    <a class="cert-image" href="public/img/certs/CarlosBravo-Endpoint_Security-certificate.pdf" target="_blank" rel="noopener">
+                    <a class="cert-image" href="public/img/certs/CarlosBravo-Endpoint_Security-certificate.pdf"
+                        target="_blank" rel="noopener">
                         <img src="public/img/certs/endpoint-security.png" alt="Endpoint Security" loading="lazy">
                     </a>
                     <div class="cert-body">
                         <span class="cert-badge green">Cisco Networking Academy</span>
                         <h3 class="cert-title">Endpoint Security</h3>
-                        <p class="cert-meta">Protección de endpoints, hardening y operación segura frente a amenazas.</p>
+                        <p class="cert-meta">Protección de endpoints, hardening y operación segura frente a amenazas.
+                        </p>
                     </div>
                     <div class="cert-actions">
-                        <a class="btn btn-outline cert-link" href="https://www.credly.com/badges/574faf9f-3225-40fb-a232-56ab63e53c1c" target="_blank" rel="noopener">Ver badge</a>
+                        <a class="btn btn-outline cert-link"
+                            href="https://www.credly.com/badges/574faf9f-3225-40fb-a232-56ab63e53c1c" target="_blank"
+                            rel="noopener">Ver badge</a>
                     </div>
                 </article>
 
                 <article class="cert-card fade-in" data-aos="zoom-in" data-aos-delay="50">
-                    <a class="cert-image" href="public/img/certs/CarlosBravo-SOC_Analyst-certificate.pdf" target="_blank" rel="noopener">
-                        <img src="public/img/certs/soc-101.png" alt="SOC 101 - Centro De Operaciones De Seguridad" loading="lazy">
+                    <a class="cert-image" href="public/img/certs/CarlosBravo-SOC_Analyst-certificate.pdf"
+                        target="_blank" rel="noopener">
+                        <img src="public/img/certs/soc-101.png" alt="SOC 101 - Centro De Operaciones De Seguridad"
+                            loading="lazy">
                     </a>
                     <div class="cert-body">
                         <span class="cert-badge blue">Academia de Ciberseguridad</span>
                         <h3 class="cert-title">SOC 101 - Centro De Operaciones De Seguridad</h3>
-                        <p class="cert-meta">Formación toctica en monitoreo, respuesta y escalamiento de incidentes SOC.</p>
+                        <p class="cert-meta">Formación toctica en monitoreo, respuesta y escalamiento de incidentes SOC.
+                        </p>
                     </div>
                     <div class="cert-actions">
-                        <a class="btn btn-outline cert-link" href="https://certificados.academia-ciberseguridad.com/download/1z4Xv0l5kVlPLVwBbmbDVw" target="_blank" rel="noopener">Ver Certificado</a>
+                        <a class="btn btn-outline cert-link"
+                            href="https://certificados.academia-ciberseguridad.com/download/1z4Xv0l5kVlPLVwBbmbDVw"
+                            target="_blank" rel="noopener">Ver Certificado</a>
                     </div>
                 </article>
 
@@ -428,7 +543,8 @@
                         <p class="cert-meta">Repositorio de credenciales verificadas y badges profesionales.</p>
                     </div>
                     <div class="cert-actions">
-                        <a class="btn cert-link btn-outline" href="https://www.credly.com/users/carlos-bravo.e252549e" target="_blank" rel="noopener">Ver mas</a>
+                        <a class="btn cert-link btn-outline" href="https://www.credly.com/users/carlos-bravo.e252549e"
+                            target="_blank" rel="noopener">Ver mas</a>
                     </div>
                 </article>
             </div>
@@ -559,8 +675,8 @@
                     <div class="tech-item-name">CCNA</div>
                 </div>
                 <div class="tech-item">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
-                        alt="Linux" class="tech-item-icon">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux"
+                        class="tech-item-icon">
                     <div class="tech-item-name">Linux</div>
                 </div>
                 <div class="tech-item">
@@ -573,18 +689,17 @@
                     <div class="tech-item-name">Burp Suite</div>
                 </div>
                 <div class="tech-item">
-                    <img src="https://nmap.org/images/nmap-logo-256x256.png"
-                        alt="Nmap" class="tech-item-icon">
+                    <img src="https://nmap.org/images/nmap-logo-256x256.png" alt="Nmap" class="tech-item-icon">
                     <div class="tech-item-name">Nmap</div>
                 </div>
                 <div class="tech-item">
-                    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/wireshark.svg"
-                        alt="Wireshark" class="tech-item-icon">
+                    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/wireshark.svg" alt="Wireshark"
+                        class="tech-item-icon">
                     <div class="tech-item-name">Wireshark</div>
                 </div>
                 <div class="tech-item">
-                    <img src="https://www.kali.org/tools/gobuster/images/gobuster-logo.svg"
-                        alt="Gobuster" class="tech-item-icon">
+                    <img src="https://www.kali.org/tools/gobuster/images/gobuster-logo.svg" alt="Gobuster"
+                        class="tech-item-icon">
                     <div class="tech-item-name">Gobuster</div>
                 </div>
             </div>
@@ -650,4 +765,3 @@
 </body>
 
 </html>
-
